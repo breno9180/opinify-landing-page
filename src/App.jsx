@@ -95,6 +95,24 @@ const PrivacyPolicy = () => {
   );
 };
 
+const TermsOfUse = () => {
+  return (
+    <main className="legal-content glass-panel">
+      <h1>Termos de Uso</h1>
+      <p>Última atualização: Setembro de 2026</p>
+      
+      <h2>1. Uso do Aplicativo</h2>
+      <p>O Opinify é uma plataforma focada na expressão de opiniões e enquetes. Você concorda em utilizar o aplicativo de forma ética e respeitosa. É estritamente proibido publicar conteúdo de ódio, assédio ou manipulação de votos.</p>
+
+      <h2>2. Anonimato e Responsabilidade</h2>
+      <p>O Opinify permite a publicação anônima. O anonimato é garantido perante outros usuários, porém, os administradores retêm a capacidade de rastrear a origem em casos de violação destes Termos. Você é o único responsável pelo conteúdo que publica.</p>
+
+      <h2>3. Suspensão de Conta</h2>
+      <p>O Opinify reserva-se o direito de suspender ou banir contas e conteúdos que desrespeitem as diretrizes da comunidade sem aviso prévio.</p>
+    </main>
+  );
+};
+
 function App() {
   return (
     <div className="app-container">
@@ -113,6 +131,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacidade" element={<PrivacyPolicy />} />
+        <Route path="/termos" element={<TermsOfUse />} />
       </Routes>
 
       <footer className="footer">
@@ -122,7 +141,7 @@ function App() {
         </div>
         <div className="footer-links">
           <Link to="/privacidade">Política de Privacidade</Link>
-          <a href="#">Termos de Uso</a>
+          <Link to="/termos">Termos de Uso</Link>
           <a href="#">Contato Comercial</a>
         </div>
         <p style={{ color: 'var(--text-muted)', fontSize: '12px' }}>
