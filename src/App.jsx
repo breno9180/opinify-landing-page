@@ -89,8 +89,16 @@ const PrivacyPolicy = () => {
       <h2>3. Moderação de Conteúdo</h2>
       <p>As imagens enviadas para as enquetes são analisadas automaticamente por inteligência artificial (AWS Rekognition) para evitar a propagação de conteúdo explícito ou violento. Nenhuma imagem barrada é armazenada permanentemente.</p>
       
-      <h2>4. Contato</h2>
-      <p>Para dúvidas sobre a proteção de dados ou para solicitar a exclusão total da sua conta e dados do nosso banco, entre em contato através de dpo@opinify.com.br.</p>
+      <h2>4. Padrões de Segurança Infantil (Child Safety Standards)</h2>
+      <p>O <strong>Opinify</strong> tem tolerância zero e repudia severamente qualquer forma de Abuso e Exploração Sexual Infantil (CSAE) e Material de Abuso Sexual Infantil (CSAM). Para garantir um ambiente social seguro para nossos usuários, estabelecemos os seguintes padrões:</p>
+      <ul>
+        <li><strong>Monitoramento e Prevenção:</strong> Possuímos filtros de segurança rigorosos. Qualquer conteúdo que faça referência à exploração infantil ou abuso é estritamente proibido.</li>
+        <li><strong>Denúncias no Aplicativo:</strong> Todos os usuários possuem acesso a ferramentas de denúncia integradas diretamente no aplicativo em cada enquete, que são enviadas para nossa equipe de moderação disponível 24h.</li>
+        <li><strong>Conformidade Legal:</strong> Obedecemos a todas as leis relevantes de segurança infantil. Material envolvendo CSAM será preservado e ativamente encaminhado para as autoridades legais competentes (ex: NCMEC e autoridades policiais locais).</li>
+      </ul>
+
+      <h2>5. Contato e Responsabilidade</h2>
+      <p>Para dúvidas sobre proteção de dados, solicitação de exclusão de conta, ou para reportar incidentes diretamente ao nosso Encarregado de Segurança sobre práticas de prevenção de CSAM, entre em contato através do e-mail: <strong>brenosouza9180@gmail.com</strong>.</p>
     </main>
   );
 };
